@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4d4b4e;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+  
+    padding-top: 30px;
+    
+}
+
+.sidebar h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding:30px;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+    
+    
+}
+
+li a:hover {
+    background-color: #f5440e;
+    border-radius: 20px;
+   
+    
+}
+.dash{
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 0%;
+}
+img{
+    width: 18px;
+    margin-right: 10px;
+}
+
+.dropdown {
+     position: relative; 
+    align-items: 50px;
+    
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:none;
+    min-width: 180px;
+    z-index: 1;
+    
+   
+    
+
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-content a:hover {
+     background-color: #cf1c1c; 
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline;
+}
+
+.fa-brands {
+    display: inline ;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-right: 10px;
+
+}
